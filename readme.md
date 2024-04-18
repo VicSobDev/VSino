@@ -13,6 +13,16 @@ This code is a **simplified version** of a "probably fair" system. It has known 
 - The server seed generation is simplistic and only hashed once, which might be vulnerable to predictability in a real-world scenario.
 - A more robust implementation would involve hashing the server seed multiple times and potentially using a more secure algorithm to generate the server seed.
 
+### Blockchain Integration
+
+For an even better approach, integrating blockchain technology can enhance the transparency and security of the system. Blockchain can be used to:
+
+- **Immutable Record**: Store game results and seeds on a blockchain, ensuring they cannot be altered once written.
+- **Transparency**: Allow players to verify the integrity of each game round independently by checking the blockchain.
+- **Decentralization**: Remove the need for a trusted third party by having the game logic executed through smart contracts.
+
+Implementing blockchain could involve creating smart contracts that handle the logic for generating and storing seeds, game outcomes, and bets directly on the blockchain. This approach would significantly increase trust among players by making the process verifiable and transparent.
+
 ### Included Games
 
 - **Coin Flip**: A simple game where a coin is flipped to return either "Heads" or "Tails".
